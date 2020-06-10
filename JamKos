@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gaya.css">
+    <title>Document</title>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;800&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #222222;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    padding: 0% 10% 0 10%;
+}
+
+.biru-logo {
+    color: #1699AB;
+}
+
+.orange-logo {
+    color: #FFD868;
+}
+
+article {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    padding: 5% 10% 0 10%;
+    text-align: justify;
+}
+
+/* navbar */
+.logo {
+    width: 18%;
+    padding: 10px 10px 10px 5%;
+}
+
+nav {
+    background-color: #2b2b2b;
+    position: fixed;
+    padding: 8px;
+}
+
+.nav-kosong {
+    background-color: #2b2b2b;
+}
+
+nav a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #1699AB;
+    text-decoration: none;
+    text-align: center;
+    padding: 12px;
+    float: left;
+}
+
+nav a:hover {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #222222;
+    background-color: #FFD868;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    margin: ;
+}
+
+.baliho {
+    flex-basis: 100%;
+    background-color: #222222;
+    border: 0px solid;
+    padding: 0px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+}
+
+.konten-kanan {
+    text-align: left;
+    padding-top: 25%;
+}
+
+.konten-kiri {
+    text-align: right;
+    padding-top: 25%;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.kosong {
+    padding-top: -10%;
+}
+
+.box {
+    height: 720;
+    flex-basis: 50%;
+    background-color: #222222;
+    padding: 0px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+}
+
+.gmbr {
+    width: 100%;
+}
+
+aside {
+    padding: 20% 0px 20px 25%;
+    font-family: "Montserrat", sans-serif;
+}
+
+.card {
+    padding: 20px;
+    border: 2px solid white;
+}
+
+.card:hover {
+    background-color: #FFD868;
+    border: 0px;
+    color: #222222;
+    font-weight: 500;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    color: #222222;
+    text-align: center;
+    padding: 2px;
+    background-color: #FFD868;
+}
+
+.tFooter {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.tFooter:hover {
+    font-weight: bolder;
+}
+
+</style></style>
+</head>
+
+<header>
+
+    <div class="container">
+        <nav>
+            <img src="img/logo_text.png" class="logo">
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#fitur">Fitur</a></li>
+            <li><a href="#caraKerja">Cara Kerja</a></li>
+            <li><a href="#info">Info</a></li>
+        </nav>
+    </div>
+    <div class="container" id="beranda">
+        <div class="flex-column">
+            <div class="flex-row">
+                <div class="baliho"><img src="img/baliho.png" class="gmbr"></div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<body>
+    <main>
+        <div class="container">
+            <!-- konten_1 -->
+            <div class="flex-row" id="fitur">
+                <div class="box"><img src="img/Frame 1.jpg" class="gmbr"></div>
+                <div class="box">
+                    <div class="konten-kanan">
+                        <h1>
+                            <a class="biru-logo">Atur, rubah dan tambah dalam</a> <a class="orange-logo">Genggaman !</a>
+                        </h1>
+                        <article>JamKos akan menghubungkan semua keperluan Civitas Akademika dalam genggaman.
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <!-- konten_2 -->
+            <div class="flex-row">
+                <div class="box">
+                    <div class="konten-kiri">
+                        <h1>
+                            <a class="biru-logo">Tampilan yang akan membuat</a> <a class="orange-logo">Tertarik</a>
+                        </h1>
+                        <article>Dengan tampilan yang telah disesuaikan dengan kebutuhan, JamKos akan sangat mudah untuk
+                            digunakan.
+                        </article>
+                    </div>
+                </div>
+                <div class="box"><img src="img/Frame 2.jpg" class="gmbr"> </div>
+            </div>
+        </div>
+        <!-- konten_3 -->
+        <div class="flex-column">
+            <div class="flex-row">
+                <div class="box"><img src="img/Frame 3.jpg" class="gmbr"></div>
+                <div class="box">
+                    <div class="konten-kanan">
+                        <h1><a class="biru-logo">Lebih dari sekedar</a> <a class="orange-logo">Catatan harian</a></h1>
+                        <article>JamKos akan menyusun, mensortir, dan mendistribusikan jadwal mengajar beserta informasi
+                            yang dibutuhkan.
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <!-- konten_4 -->
+            <div class="flex-row">
+                <div class="box">
+                    <div class="konten-kiri">
+                        <h1> <a class="biru-logo">Atur, tambah, dan hapus sudah</a> <a class="orange-logo">bukan
+                                suatu masalah</a></h1>
+                        <article>Mengatur, menambahkan, bahkan menghapus jadwal perkuliahan, biarkan telunjuk kita yang
+                            menentukan.
+                        </article>
+                    </div>
+                </div>
+                <div class="box"><img src="img/Frame 4.jpg" class="gmbr"> </div>
+            </div>
+        </div>
+        <!-- konten_5 -->
+        <div class="flex-column" id="caraKerja">
+            <div class="flex-row">
+                <div class="box"><img src="img/Cara Kerja.jpg" class="gmbr"></div>
+                <div class="box">
+                    <div class="konten-kanan">
+                        <h1><a class="biru-logo">Menyederhanakan komunikasi melalui suatu</a> <a
+                                class="orange-logo">platform</a></h1>
+                        <article>Bagian penjadwalan, Sekdos, Dosen, dan mahasiswa akan terbuhung dengan satu platform
+                            berbasis mobile.
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <!-- konten_6 -->
+            <div class="flex-row" id="info">
+                <div class="box">
+                    <aside>
+                        <h1><a class="biru-logo">Profil </a> <a class="orange-logo">pengembang</a></h1><br>
+                        <p class="card">Nama : Muhammad Shiddiq Fathullah</p><br>
+                        <p class="card">Instagram : @m_shiddiq_f</p><br>
+                        <p class="card">LinkedIn : Muhammad Shiddiq F</p><br>
+                    </aside>
+                </div>
+                <div class="box"><img src="img/profile.jpg" class="gmbr"> </div>
+            </div>
+        </div>
+        </div>
+    </main>
+</body>
+<footer>
+    <p class="tFooter">Developed with pasion in corona pandemic 2020</p>
+</footer>
+
+</html>

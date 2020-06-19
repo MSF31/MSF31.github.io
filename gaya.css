@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;800&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #222222;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    padding: 0% 10% 0 10%;
+}
+
+.biru-logo {
+    color: #1699AB;
+}
+
+.orange-logo {
+    color: #FFD868;
+}
+
+article {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    padding: 5% 10% 0 10%;
+    text-align: justify;
+}
+
+/* navbar */
+.logo {
+    width: 18%;
+    padding: 10px 10px 10px 5%;
+}
+
+nav {
+    background-color: #2b2b2b;
+    position: fixed;
+    padding: 8px;
+}
+
+.nav-kosong {
+    background-color: #2b2b2b;
+}
+
+nav a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #1699AB;
+    text-decoration: none;
+    text-align: center;
+    padding: 12px;
+    float: left;
+}
+
+nav a:hover {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #222222;
+    background-color: #FFD868;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    margin: ;
+}
+
+.baliho {
+    flex-basis: 100%;
+    background-color: #222222;
+    border: 0px solid;
+    padding: 0px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+}
+
+.konten-kanan {
+    text-align: left;
+    padding-top: 25%;
+}
+
+.konten-kiri {
+    text-align: right;
+    padding-top: 25%;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.kosong {
+    padding-top: -10%;
+}
+
+.box {
+    height: 720;
+    flex-basis: 50%;
+    background-color: #222222;
+    padding: 0px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+}
+
+.gmbr {
+    width: 100%;
+}
+
+aside {
+    padding: 20% 0px 20px 25%;
+    font-family: "Montserrat", sans-serif;
+}
+
+.card {
+    padding: 20px;
+    border: 2px solid white;
+}
+
+.card:hover {
+    background-color: #FFD868;
+    border: 0px;
+    color: #222222;
+    font-weight: 500;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    color: #222222;
+    text-align: center;
+    padding: 2px;
+    background-color: #FFD868;
+}
+
+.tFooter {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.tFooter:hover {
+    font-weight: bolder;
+}
+
+</style>
